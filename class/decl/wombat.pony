@@ -22,6 +22,8 @@ class Wombat
 	fun foo(env: Env) =>
 		env.out.print("alv")
 
+  fun hunger(): U64 => _hunger_level
+
 actor Main
 	new create(env: Env) =>
     let defaultWombat = Wombat("Leo")
