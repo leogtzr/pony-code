@@ -24,6 +24,14 @@ class Wombat
 
   fun hunger(): U64 => _hunger_level
 
+  // called before the GC collects data.
+  fun _final() =>
+
+
+  // a ref type is a reference type, meaning that the object is mutable.
+  // to: U64 = 0 is a default argument, if it is not included 0 will be used.
+  fun ref set_hunger(to: U64 = 0): U64 => _hunger_level = to
+
 actor Main
 	new create(env: Env) =>
     let defaultWombat = Wombat("Leo")
@@ -31,3 +39,5 @@ actor Main
 
     let hungryWombat = Wombat("Juan")
     env.out.print(hungryWombat.name)
+
+    defaultWombat.foo(env)
