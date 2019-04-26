@@ -21,3 +21,5 @@ actor Main
 
     env.out.print("Is door open? " + isDoorOpen.string())
     env.out.print("2 + 3 = " + BasicMath.add(2, 3).string())
+
+    // env.out.print(((2 + 3): U64).string())
