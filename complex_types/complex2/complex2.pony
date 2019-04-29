@@ -10,6 +10,7 @@ trait HasAddress
 type Person is (HasName & HasAge & HasAddress)
 
 class Leo is Person
+// class Leo is (HasName & HasAge & HasAddress) would also work
   var _x: U32 = 0
   new create(x': U32 = 3) =>
     _x = x'
