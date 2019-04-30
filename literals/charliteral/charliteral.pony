@@ -9,5 +9,3 @@ actor Main
 
     let newline: U32 = '\n'
     env.out.print(newline.string())
-
-    
