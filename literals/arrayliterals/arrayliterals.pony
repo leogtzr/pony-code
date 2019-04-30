@@ -26,5 +26,10 @@ actor Main
         U64(0xA)
         "0xA"
       ]
-
       // Stringable is a trait and U64 and String both implement it.
+
+    let my_immutable_array: Array[Stringable] val =
+      [
+        U64(0xBEEF)
+        "0xBEEF"
+      ]
