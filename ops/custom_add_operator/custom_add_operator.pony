@@ -21,6 +21,9 @@ actor Main
     var p2 = Pair(4, 3)
     // var p2 = p1.add(p1)
     var p3 = p1.add(p2)
+    var p4 = p1 + p2
 
     env.out.print(p3.getX().string())
     env.out.print(p3.getY().string())
+
+    env.out.print(p4.getX().string())
