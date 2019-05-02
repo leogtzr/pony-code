@@ -1,0 +1,19 @@
+
+Safe conversion	Unsafe conversion
+u8()	u8_unsafe()
+u16()	u16_unsafe()
+u32()	u32_unsafe()
+u64()	u64_unsafe()
+u128()	u128_unsafe()
+ulong()	ulong_unsafe()
+usize()	usize_unsafe()
+i8()	i8_unsafe()
+i16()	i16_unsafe()
+i32()	i32_unsafe()
+i64()	i64_unsafe()
+i128()	i128_unsafe()
+ilong()	ilong_unsafe()
+isize()	isize_unsafe()
+f32()	f32_unsafe()
+f64()	f64_unsafe()
+
