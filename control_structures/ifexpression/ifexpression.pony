@@ -5,5 +5,4 @@ actor Main
 
     x = 1 + if lots then 100 else 2
 
-
     env.out.print(x.string())
