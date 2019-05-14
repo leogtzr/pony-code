@@ -1,0 +1,5 @@
+val -> immutable
+ref -> mutable
+
+There are sensible defaults that most types will use. 
+These are ref for classes, val for primitives (i.e. immutable references) and tag for actors.
